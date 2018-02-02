@@ -55,5 +55,5 @@
 2.可以用其他的mq中间件实现，不局限于某一种中间件
 
 
-
+https://www.processon.com/view/link/5a73cabee4b024b99bebc399
 
