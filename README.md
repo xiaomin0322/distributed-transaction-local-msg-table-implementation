@@ -25,7 +25,14 @@
 
 
 服务端是一个独立的部署程序
-客户端需要一个client.jar封装一些东西包括:spring aop ，服务调用，生产者回调
+客户端需要一个client.jar封装一些东西包括:生产者封装，消费者封装
+
+生产者封装思路：spring aop,通过拦截带有eventPublish参数方法，根据此参数传递相关状态信息。
+
+
+消费者封装：由于个mq获取方法不同，所以封装rpc相关方法即可
+
+
 
 
 分布式事物流程：
@@ -55,5 +62,6 @@
 2.可以用其他的mq中间件实现，不局限于某一种中间件
 
 
-https://www.processon.com/view/link/5a73cabee4b024b99bebc399
 
+
+https://www.processon.com/view/link/5a73cabee4b024b99bebc399
